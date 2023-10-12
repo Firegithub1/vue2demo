@@ -1,8 +1,14 @@
+<!--
+ * @Author: YiY
+ * @Date: 2023-10-06 16:55:30
+ * @LastEditTime: 2023-10-08 08:47:06
+-->
 <template>
   <div id="app">
     <nav>
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/set">Set</router-link> |
+      <router-link to="/table">Table</router-link>
     </nav>
     <router-view/>
   </div>
