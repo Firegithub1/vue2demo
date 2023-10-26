@@ -8,6 +8,7 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/set">Set</router-link> |
+      <router-link to="/routes">Routes</router-link> |
       <router-link to="/table">Table</router-link>
     </nav>
     <router-view/>

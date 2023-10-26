@@ -1,0 +1,661 @@
+{
+  "data": {
+    "user": {
+      "id": "VXNlcjoxMTIyOQ==",
+      "email": "sutong666@hucais.com",
+      "isSupplier": false,
+      "permissionGroups": [
+        {
+          "id": "R3JvdXA6Mjg=",
+          "routes": [
+            {
+              "id": "Um91dGU6NTM=",
+              "name": "秒杀活动审核",
+              "url": "activityAudit",
+              "order": 3,
+              "children": [],
+              "parent": {
+                "id": "Um91dGU6Mzc=",
+                "name": "供应商管理"
+              }
+            },
+            {
+              "id": "Um91dGU6Mzc=",
+              "name": "供应商管理",
+              "url": "supplier",
+              "order": 4,
+              "children": [
+                {
+                  "id": "Um91dGU6NDk=",
+                  "name": "供应商列表",
+                  "url": "supplierList",
+                  "order": 1,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTE=",
+                  "name": "商品审核",
+                  "url": "goodsAudit",
+                  "order": 2,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTM=",
+                  "name": "秒杀活动审核",
+                  "url": "activityAudit",
+                  "order": 3,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTI=",
+                  "name": "对账申请",
+                  "url": "billApply",
+                  "order": 4,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTA=",
+                  "name": "入驻审核",
+                  "url": "supplierAudit",
+                  "order": 5,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                }
+              ],
+              "parent": null
+            },
+            {
+              "id": "Um91dGU6NDE=",
+              "name": "营销中心",
+              "url": "marketCenter",
+              "order": 7,
+              "children": [
+                {
+                  "id": "Um91dGU6MTAz",
+                  "name": "秒杀管理",
+                  "url": "secondBuy",
+                  "order": 1,
+                  "parent": {
+                    "id": "Um91dGU6NDE=",
+                    "name": "营销中心"
+                  }
+                },
+                {
+                  "id": "Um91dGU6OTE=",
+                  "name": "秒杀",
+                  "url": "seckill",
+                  "order": 2,
+                  "parent": {
+                    "id": "Um91dGU6NDE=",
+                    "name": "营销中心"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NjQ=",
+                  "name": "优惠券",
+                  "url": "coupon",
+                  "order": 4,
+                  "parent": {
+                    "id": "Um91dGU6NDE=",
+                    "name": "营销中心"
+                  }
+                }
+              ],
+              "parent": null
+            }
+          ]
+        },
+        {
+          "id": "R3JvdXA6MTg=",
+          "routes": [
+            {
+              "id": "Um91dGU6MzQ=",
+              "name": "数据看板",
+              "url": "dataCenter",
+              "order": 1,
+              "children": [],
+              "parent": null
+            },
+            {
+              "id": "Um91dGU6Mzc=",
+              "name": "供应商管理",
+              "url": "supplier",
+              "order": 4,
+              "children": [
+                {
+                  "id": "Um91dGU6NDk=",
+                  "name": "供应商列表",
+                  "url": "supplierList",
+                  "order": 1,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTE=",
+                  "name": "商品审核",
+                  "url": "goodsAudit",
+                  "order": 2,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTM=",
+                  "name": "秒杀活动审核",
+                  "url": "activityAudit",
+                  "order": 3,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTI=",
+                  "name": "对账申请",
+                  "url": "billApply",
+                  "order": 4,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTA=",
+                  "name": "入驻审核",
+                  "url": "supplierAudit",
+                  "order": 5,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                }
+              ],
+              "parent": null
+            },
+            {
+              "id": "Um91dGU6NTA=",
+              "name": "入驻审核",
+              "url": "supplierAudit",
+              "order": 5,
+              "children": [],
+              "parent": {
+                "id": "Um91dGU6Mzc=",
+                "name": "供应商管理"
+              }
+            },
+            {
+              "id": "Um91dGU6OTI=",
+              "name": "商品管理",
+              "url": "product",
+              "order": 5,
+              "children": [
+                {
+                  "id": "Um91dGU6OTM=",
+                  "name": "商品列表",
+                  "url": "productList",
+                  "order": 1,
+                  "parent": {
+                    "id": "Um91dGU6OTI=",
+                    "name": "商品管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6OTc=",
+                  "name": "商品分类",
+                  "url": "categories",
+                  "order": 2,
+                  "parent": {
+                    "id": "Um91dGU6OTI=",
+                    "name": "商品管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6OTg=",
+                  "name": "商品类型",
+                  "url": "type",
+                  "order": 3,
+                  "parent": {
+                    "id": "Um91dGU6OTI=",
+                    "name": "商品管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6OTk=",
+                  "name": "商品属性",
+                  "url": "attribute",
+                  "order": 4,
+                  "parent": {
+                    "id": "Um91dGU6OTI=",
+                    "name": "商品管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6MTAy",
+                  "name": "渠道仓库",
+                  "url": "warehouse",
+                  "order": 5,
+                  "parent": {
+                    "id": "Um91dGU6OTI=",
+                    "name": "商品管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6MTAw",
+                  "name": "商品渠道",
+                  "url": "channel",
+                  "order": 5,
+                  "parent": {
+                    "id": "Um91dGU6OTI=",
+                    "name": "商品管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6MTAx",
+                  "name": "配送区域",
+                  "url": "shippingZone",
+                  "order": 6,
+                  "parent": {
+                    "id": "Um91dGU6OTI=",
+                    "name": "商品管理"
+                  }
+                }
+              ],
+              "parent": null
+            },
+            {
+              "id": "Um91dGU6OTQ=",
+              "name": "订单管理",
+              "url": "order",
+              "order": 6,
+              "children": [
+                {
+                  "id": "Um91dGU6MTA1",
+                  "name": "对账申请 ",
+                  "url": "orderBillApply",
+                  "order": 6,
+                  "parent": {
+                    "id": "Um91dGU6OTQ=",
+                    "name": "订单管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6OTU=",
+                  "name": "订单列表",
+                  "url": "orderList",
+                  "order": 7,
+                  "parent": {
+                    "id": "Um91dGU6OTQ=",
+                    "name": "订单管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6OTY=",
+                  "name": "售后列表",
+                  "url": "saleList",
+                  "order": 8,
+                  "parent": {
+                    "id": "Um91dGU6OTQ=",
+                    "name": "订单管理"
+                  }
+                }
+              ],
+              "parent": null
+            },
+            {
+              "id": "Um91dGU6NDE=",
+              "name": "营销中心",
+              "url": "marketCenter",
+              "order": 7,
+              "children": [
+                {
+                  "id": "Um91dGU6MTAz",
+                  "name": "秒杀管理",
+                  "url": "secondBuy",
+                  "order": 1,
+                  "parent": {
+                    "id": "Um91dGU6NDE=",
+                    "name": "营销中心"
+                  }
+                },
+                {
+                  "id": "Um91dGU6OTE=",
+                  "name": "秒杀",
+                  "url": "seckill",
+                  "order": 2,
+                  "parent": {
+                    "id": "Um91dGU6NDE=",
+                    "name": "营销中心"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NjQ=",
+                  "name": "优惠券",
+                  "url": "coupon",
+                  "order": 4,
+                  "parent": {
+                    "id": "Um91dGU6NDE=",
+                    "name": "营销中心"
+                  }
+                }
+              ],
+              "parent": null
+            },
+            {
+              "id": "Um91dGU6NDM=",
+              "name": "积分管理",
+              "url": "integral",
+              "order": 8,
+              "children": [
+                {
+                  "id": "Um91dGU6NjU=",
+                  "name": "积分发放规则管理",
+                  "url": "integralRule",
+                  "order": 1,
+                  "parent": {
+                    "id": "Um91dGU6NDM=",
+                    "name": "积分管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NzA=",
+                  "name": "系统生成发放数据",
+                  "url": "integralGrant",
+                  "order": 2,
+                  "parent": {
+                    "id": "Um91dGU6NDM=",
+                    "name": "积分管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NjY=",
+                  "name": "积分实际发放表单",
+                  "url": "integralRecord",
+                  "order": 3,
+                  "parent": {
+                    "id": "Um91dGU6NDM=",
+                    "name": "积分管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6MTA0",
+                  "name": "主体公司对账单",
+                  "url": "integralChecking",
+                  "order": 4,
+                  "parent": {
+                    "id": "Um91dGU6NDM=",
+                    "name": "积分管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6Njk=",
+                  "name": "异动人员数据同步",
+                  "url": "personalFlow",
+                  "order": 5,
+                  "parent": {
+                    "id": "Um91dGU6NDM=",
+                    "name": "积分管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NzE=",
+                  "name": "宿舍积分扣减",
+                  "url": "integralAdjust",
+                  "order": 6,
+                  "parent": {
+                    "id": "Um91dGU6NDM=",
+                    "name": "积分管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6Njc=",
+                  "name": "积分详细记录",
+                  "url": "integralDetailRecord",
+                  "order": 7,
+                  "parent": {
+                    "id": "Um91dGU6NDM=",
+                    "name": "积分管理"
+                  }
+                }
+              ],
+              "parent": null
+            },
+            {
+              "id": "Um91dGU6NDQ=",
+              "name": "内容管理",
+              "url": "content",
+              "order": 9,
+              "children": [
+                {
+                  "id": "Um91dGU6NzI=",
+                  "name": "评论管理",
+                  "url": "comment",
+                  "order": 1,
+                  "parent": {
+                    "id": "Um91dGU6NDQ=",
+                    "name": "内容管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NzM=",
+                  "name": "轮播图管理",
+                  "url": "carousel",
+                  "order": 2,
+                  "parent": {
+                    "id": "Um91dGU6NDQ=",
+                    "name": "内容管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NzQ=",
+                  "name": "积分规则",
+                  "url": "integralRuleContent",
+                  "order": 3,
+                  "parent": {
+                    "id": "Um91dGU6NDQ=",
+                    "name": "内容管理"
+                  }
+                }
+              ],
+              "parent": null
+            },
+            {
+              "id": "Um91dGU6NDU=",
+              "name": "报表中心",
+              "url": "reportTable",
+              "order": 11,
+              "children": [
+                {
+                  "id": "Um91dGU6NzU=",
+                  "name": "商品评分查询",
+                  "url": "productCommentQuery",
+                  "order": 1,
+                  "parent": {
+                    "id": "Um91dGU6NDU=",
+                    "name": "报表中心"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NzY=",
+                  "name": "工资充值商品查询",
+                  "url": "salaryRechargeQuery",
+                  "order": 2,
+                  "parent": {
+                    "id": "Um91dGU6NDU=",
+                    "name": "报表中心"
+                  }
+                },
+                {
+                  "id": "Um91dGU6Nzc=",
+                  "name": "供应商评分查询",
+                  "url": "supplierCommentQuery",
+                  "order": 3,
+                  "parent": {
+                    "id": "Um91dGU6NDU=",
+                    "name": "报表中心"
+                  }
+                },
+                {
+                  "id": "Um91dGU6MTA2",
+                  "name": "积分消费对账单",
+                  "url": "reconciliation",
+                  "order": 4,
+                  "parent": {
+                    "id": "Um91dGU6NDU=",
+                    "name": "报表中心"
+                  }
+                }
+              ],
+              "parent": null
+            }
+          ]
+        },
+        {
+          "id": "R3JvdXA6Mjk=",
+          "routes": [
+            {
+              "id": "Um91dGU6MzQ=",
+              "name": "数据看板",
+              "url": "dataCenter",
+              "order": 1,
+              "children": [],
+              "parent": null
+            },
+            {
+              "id": "Um91dGU6NTI=",
+              "name": "对账申请",
+              "url": "billApply",
+              "order": 4,
+              "children": [],
+              "parent": {
+                "id": "Um91dGU6Mzc=",
+                "name": "供应商管理"
+              }
+            },
+            {
+              "id": "Um91dGU6Mzc=",
+              "name": "供应商管理",
+              "url": "supplier",
+              "order": 4,
+              "children": [
+                {
+                  "id": "Um91dGU6NDk=",
+                  "name": "供应商列表",
+                  "url": "supplierList",
+                  "order": 1,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTE=",
+                  "name": "商品审核",
+                  "url": "goodsAudit",
+                  "order": 2,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTM=",
+                  "name": "秒杀活动审核",
+                  "url": "activityAudit",
+                  "order": 3,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTI=",
+                  "name": "对账申请",
+                  "url": "billApply",
+                  "order": 4,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6NTA=",
+                  "name": "入驻审核",
+                  "url": "supplierAudit",
+                  "order": 5,
+                  "parent": {
+                    "id": "Um91dGU6Mzc=",
+                    "name": "供应商管理"
+                  }
+                }
+              ],
+              "parent": null
+            },
+            {
+              "id": "Um91dGU6OTQ=",
+              "name": "订单管理",
+              "url": "order",
+              "order": 6,
+              "children": [
+                {
+                  "id": "Um91dGU6MTA1",
+                  "name": "对账申请 ",
+                  "url": "orderBillApply",
+                  "order": 6,
+                  "parent": {
+                    "id": "Um91dGU6OTQ=",
+                    "name": "订单管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6OTU=",
+                  "name": "订单列表",
+                  "url": "orderList",
+                  "order": 7,
+                  "parent": {
+                    "id": "Um91dGU6OTQ=",
+                    "name": "订单管理"
+                  }
+                },
+                {
+                  "id": "Um91dGU6OTY=",
+                  "name": "售后列表",
+                  "url": "saleList",
+                  "order": 8,
+                  "parent": {
+                    "id": "Um91dGU6OTQ=",
+                    "name": "订单管理"
+                  }
+                }
+              ],
+              "parent": null
+            }
+          ]
+        }
+      ],
+      "supplier": null
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 2,
+      "maximumAvailable": 50000
+    }
+  }
+}
