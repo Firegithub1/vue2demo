@@ -2,7 +2,10 @@
 <div class=''>
   <div v-for="(item,index) in routes" :key="index">
    <ul>
-    <li v-for="(li,index) in item" :key="index">{{ lis }}</li>
+    <li>{{ item.id }}</li>
+    <ul v-for="(ul,index) in item.routes" :key="index">
+      <div>{{ul.name}}</div>
+    </ul>
    </ul>
   </div>
 </div>
@@ -17,17 +20,20 @@ export default {
   props: {},
   data() {
     return {
-      routes:undefined
+      routes:undefined,
+      lis:[]
     };
   },
   created(){
     let routesData = data.data.user.permissionGroups
-    this.routes = routesData.map(item=>{
-      return item.routes.reduce((acc,item)=>{
-        acc.push(item.name)
-        return acc
-      },[])
-    })
+    this.routes = routesData
+
+    // this.routes = routesData.map(item=>{
+      // return item.routes.reduce((acc,item)=>{
+      //   acc.push(item.name)
+      //   return acc
+      // },[])
+    // })
   }
 }
 </script>

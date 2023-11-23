@@ -8,8 +8,9 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/set">Set</router-link> |
-      <router-link to="/routes">Routes</router-link> |
-      <router-link to="/table">Table</router-link>
+      <router-link to="/slot">Slot</router-link> |
+      <router-link to="/table">Table</router-link> |
+      <router-link to="/routes">Routes</router-link>
     </nav>
     <router-view/>
   </div>
@@ -22,10 +23,16 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: lightgrey;
+  margin: 0 auto;
+  padding: 40px;
+  height: 100%;
 }
 
 nav {
   padding: 30px;
+  background-color: lightgoldenrodyellow;
+  margin-bottom: 20px;
 }
 
 nav a {

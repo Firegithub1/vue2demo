@@ -10,15 +10,29 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path:'/table',
-    name:'table',
-    component:() => import('../pages/table')
+    path:'/',
+    redirect:'/home'
+  },
+  {
+    path:'/home',
+    name:'name',
+    component:() => import('../pages/home')
   },
   {
     path:'/set',
     name:'set',
     component:() => import('../pages/set')
   },
+  {
+    path: '/slot',
+    name: 'slot',
+    component: () => import('../pages/slot')
+  },
+  // {
+  //   path: '/table',
+  //   name: 'table',
+  //   component: () => import('../pages/table')
+  // },
   {
     path: '/routes',
     name: 'routes',

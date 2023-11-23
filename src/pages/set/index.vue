@@ -14,7 +14,7 @@
   </div>
   <div>
     原来的其它对象是{{otherFather}}
-    <button @click="ssssssssssssss">...</button>
+    <!-- <button @click="ssssssssssssss">...</button> -->
   </div>
   <div>
     原来的直接对象是{{directFather}}
@@ -65,12 +65,12 @@ export default {
     //     y:4839
     //   }
     // },
-    // changeDirectFather(){
-    //   this.directFather = {
-    //     f:342,
-    //     a:1
-    //   }
-    // }
+    changeDirectFather(){
+      this.directFather = {
+        f:342,
+        a:1
+      }
+    }
   }
 }
 </script>
